@@ -1,0 +1,53 @@
+body {
+    background-image: url('fondoGracias.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+}
+
+
+*{
+    font-size: 24px;
+}
+.contenido {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start; /* Mantiene los elementos alineados hacia la izquierda */
+    gap: 50px; /* Espaciado moderado entre la imagen y el texto */
+    padding: 50px; /* Ajusta el espacio interno */
+}
+
+.imagenGracias {
+    margin-left: 500px;
+    width: 200px; /* Tamaño más pequeño para la imagen */
+    height: auto;
+    object-fit: contain; /* Mantiene la imagen sin deformarse */
+}
+
+.texto {
+    max-width: 600px; /* Hace que el texto no sea demasiado ancho */
+}
+
+.boton {
+    margin-left: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px; /* Reduce el padding horizontal */
+    width: 200px; /* Fija un ancho más pequeño */
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 20px; /* Reduce el espacio entre elementos internos */
+}
+
+
+
+
+
+

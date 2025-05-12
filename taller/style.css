@@ -1,0 +1,154 @@
+body {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 70px;
+  margin: 0;
+  padding: 20px; 
+  background: #f8f8f8;
+}
+
+*{
+ font-size: 24PX;
+}
+
+
+.header {
+    padding: 20px;
+    margin-bottom: 40px;
+    background: white;
+}
+
+.logo {
+   display: block;
+   height: 70px;
+   margin: auto;
+}
+
+
+
+.contenido {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*  .texto-box{
+    margin: 0;
+}  */
+
+#carouselExampleAutoplaying {
+    flex: 1;
+    max-width: 600px; /* Si quieres un límite */
+}
+
+.formulario {
+    width: 100%;
+    max-width: 400px; /* Ajusta el tamaño del formulario */
+}
+
+.formulario label {
+    font-weight: bold;
+}
+
+.formulario input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 130%;
+    min-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton-container {
+    display: flex;
+    justify-content: center; /* Centra el botón debajo del carrusel */
+    margin-top: 20px; /* Espaciado entre carrusel y botón */
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 50px;
+}
+
+.icono-boton {
+    
+    width: 48px;
+    height: 48px;
+    transition: 1s ease-in-out;
+}
+
+.boton:hover  .icono-boton{
+
+    content: url(cajaAbierta.png);
+}
+
+
+
+.imagen-fondo {
+    position: relative; /* Evita que la imagen se superponga al footer */
+    width: 100%; /* Se ajusta al ancho disponible */
+    height: auto;
+    margin-top: 20px; /* Espacio para separarla de elementos superiores */
+    margin-bottom: 20px; /* Asegura que no toque el footer */
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagen-fondo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ajusta la imagen sin perder calidad */
+}
+
+.flecha-arriba {
+    position: absolute;
+    bottom: 20px; /* Ubicación sobre la imagen */
+    right: 20px; /* Ubicación en la esquina derecha */
+    font-size: 30px; /* Tamaño de la flecha */
+    color: white; /* Color de la flecha */
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.flecha-arriba:hover {
+    background: rgba(0, 0, 0, 0.8); /* Efecto al pasar el mouse */
+}
+
+
+.footer-contenedor a {
+    display: inline-block;
+    gap: 300px;
+}
+
+.footer-contenedor img {
+    width: 50px; /* Tamaño pequeño para todas */
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+/* Mantiene la primera imagen más grande */
+.footer-contenedor a:nth-child(1) img {
+    width: 250px;
+    height: 90px;
+}
+
+
