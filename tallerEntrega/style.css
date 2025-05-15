@@ -1,0 +1,173 @@
+body {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 70px;
+  margin: 0;
+  padding: 20px; 
+  background: #f8f8f8;
+}
+
+*{
+ font-size: 24PX;
+}
+
+
+.header {
+    padding: 20px;
+    margin-bottom: 40px;
+    background: white;
+}
+
+.logo {
+   display: block;
+   height: 70px;
+   margin: auto;
+}
+
+
+
+.contenido {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#carouselExampleAutoplaying {
+    flex: 1;
+    max-width: 600px; 
+}
+
+.formulario {
+    width: 100%;
+    max-width: 400px; 
+}
+
+.formulario label {
+    font-weight: bold;
+}
+
+.formulario input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 130%;
+    min-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 50px;
+}
+
+.icono-boton {
+    
+    width: 48px;
+    height: 48px;
+    transition: 1s ease-in-out;
+}
+
+.boton:hover  .icono-boton{
+
+    content: url(cajaAbierta.png);
+}
+
+.textoSobreImagen{
+    position: absolute;
+    padding: 120px ;
+    color:white;
+    
+}
+
+
+.imagen-fondo {
+    position: relative; 
+    width: 100%; 
+    height: auto;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+
+.imagen-fondo img {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    object-fit: cover; 
+}
+
+.flecha-arriba {
+    position: absolute;
+    bottom: 20px; 
+    right: 20px; 
+    font-size: 30px; 
+    color: white; 
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.flecha-arriba:hover {
+    background: rgba(0, 0, 0, 0.8); 
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.contenedor{
+    display: inline-flex;
+    gap: 130px;
+    align-items: center;
+} 
+
+.gato{
+    width: 250px;
+    height: 90px; 
+}
+
+.insta{
+    width: 48px;
+    height: auto;
+}
+
+.face{
+    width: 48px;
+    height: auto;
+}
+
+.youtube {
+    width: 48px;
+    height: auto;
+}
+
+.x{
+    width: 48px;
+    height: auto;
+}
+
+
+
