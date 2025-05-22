@@ -1,0 +1,47 @@
+body {
+    background-image: url('fondoGracias.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+}
+
+
+*{
+    font-size: 24px;
+}
+.contenido {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 50px; 
+    padding: 50px; 
+}
+
+.imagenGracias {
+    margin-left: 500px;
+    width: 200px; 
+    height: auto;
+   
+}
+
+.texto {
+    max-width: 600px; 
+}
+
+.boton {
+    margin-left: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px; 
+    width: 200px; 
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 20px; 
+}
