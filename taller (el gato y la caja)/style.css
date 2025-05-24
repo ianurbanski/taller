@@ -1,0 +1,151 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px; 
+    margin: 0; 
+    background: #f8f8f8;
+}
+
+* {
+    font-size: 18px; 
+}
+
+.header {
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    background: white;
+}
+
+.logo {
+    display: block;
+    height: 70px;
+    margin: auto;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 300px;
+    padding: 30px 150px 150px 150px ;
+}
+
+.contenedorForm {
+    display: block;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* align-items: flex-start */;
+    gap: 30px;
+    font-size: 16px;
+}
+
+form label {
+    display: flex; 
+    margin-bottom: 5px; 
+}
+
+form input {
+    width: auto; 
+    padding: 10px;
+    font-size: 16px;
+}
+
+.feedbackContenedor {
+    width: 40%;
+    font-size: 18px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.oculto {
+    display: none !important;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: row; /* Imagen izquierda, texto derecha */
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw; /* Ajusta el ancho para evitar que se corte en la pantalla */
+    max-width: auto;
+    margin:  auto;
+    height: auto;
+    padding: 0px;
+    background-image: url('trival/fondoDescuento.png'); /* Imagen de fondo */
+    background-size: cover; /* Asegura que cubra toda la tarjeta */
+    background-position: center; /* Centra la imagen */
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Evita que elementos internos se salgan */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contenidoTarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin:  auto;
+}
+
+.trivalIMG {
+    width: 300px;
+    margin-left: 33.33px;
+    margin-right: 33.33%;
+}
+
+.textoTrival {
+    text-align: left;
+    margin-right: 50px;
+    font-size: 24px;
+    width: 33.33%;
+}
+
+.carruselContenedor{
+    padding: 30px 150px 150px 150px;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    /* padding: 20px; */
+    text-align: center;
+    
+}
+
+.contenedor{
+    display: inline-flex;
+    gap: 200px;
+    align-items: center;
+} 
+
+.gato{
+    width: 250px;
+    height: 90px; 
+}
+
+.insta{
+    width: 48px;
+    height: auto;
+}
+
+.face{
+    width: 48px;
+    height: auto;
+}
+
+.youtube {
+    width: 48px;
+    height: auto;
+}
+
+.x{
+    width: 48px;
+    height: auto;
+}
+
+
